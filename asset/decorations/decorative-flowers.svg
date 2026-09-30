@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <defs>
+    <radialGradient id="peonyCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF3366" />
+      <stop offset="60%" stop-color="#C72C41" />
+      <stop offset="100%" stop-color="#800020" />
+    </radialGradient>
+    <radialGradient id="petalLight" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF0F5" />
+      <stop offset="40%" stop-color="#FFB6C1" />
+      <stop offset="85%" stop-color="#E63973" />
+      <stop offset="100%" stop-color="#9E2A2B" />
+    </radialGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8DAA72" />
+      <stop offset="50%" stop-color="#557A46" />
+      <stop offset="100%" stop-color="#344C27" />
+    </linearGradient>
+    <linearGradient id="goldStem" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E1C490" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#E1C490" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#E1C490" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Flowing Gold Floral Vine -->
+  <path d="M 20,70 Q 120,40 250,55 T 480,70 Q 360,60 250,68 T 20,70 Z" fill="url(#goldStem)" />
+
+  <!-- Leaves (Left side) -->
+  <g transform="translate(110, 60) rotate(-30)">
+    <path d="M 0,0 C 15,-15 35,-5 35,5 C 35,15 15,15 0,0 Z" fill="url(#leafGrad)" />
+  </g>
+  <g transform="translate(160, 50) rotate(-15)">
+    <path d="M 0,0 C 12,-12 28,-4 28,4 C 28,12 12,12 0,0 Z" fill="url(#leafGrad)" opacity="0.9" />
+  </g>
+  <g transform="translate(70, 70) rotate(-45)">
+    <path d="M 0,0 C 10,-10 24,-3 24,3 C 24,10 10,10 0,0 Z" fill="url(#leafGrad)" opacity="0.8" />
+  </g>
+
+  <!-- Leaves (Right side) -->
+  <g transform="translate(390, 60) scale(-1, 1) rotate(-30)">
+    <path d="M 0,0 C 15,-15 35,-5 35,5 C 35,15 15,15 0,0 Z" fill="url(#leafGrad)" />
+  </g>
+  <g transform="translate(340, 50) scale(-1, 1) rotate(-15)">
+    <path d="M 0,0 C 12,-12 28,-4 28,4 C 28,12 12,12 0,0 Z" fill="url(#leafGrad)" opacity="0.9" />
+  </g>
+  <g transform="translate(430, 70) scale(-1, 1) rotate(-45)">
+    <path d="M 0,0 C 10,-10 24,-3 24,3 C 24,10 10,10 0,0 Z" fill="url(#leafGrad)" opacity="0.8" />
+  </g>
+
+  <!-- Left Side Flowers -->
+  <g transform="translate(135, 65) scale(0.75)">
+    <!-- 5 Petals -->
+    <path d="M 0,0 C -15,-25 15,-25 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 22,-15 30,10 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 15,22 -10,25 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C -25,15 -28,-10 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C -25,-12 -15,-28 0,0" fill="url(#petalLight)" />
+    <circle cx="0" cy="0" r="4" fill="#FFD700" />
+  </g>
+
+  <g transform="translate(85, 75) scale(0.55)">
+    <path d="M 0,0 C -15,-25 15,-25 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 22,-15 30,10 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 15,22 -10,25 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C -25,15 -28,-10 0,0" fill="url(#petalLight)" />
+    <circle cx="0" cy="0" r="3.5" fill="#FFD700" />
+  </g>
+
+  <!-- Right Side Flowers -->
+  <g transform="translate(365, 65) scale(0.75)">
+    <path d="M 0,0 C -15,-25 15,-25 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 22,-15 30,10 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 15,22 -10,25 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C -25,15 -28,-10 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C -25,-12 -15,-28 0,0" fill="url(#petalLight)" />
+    <circle cx="0" cy="0" r="4" fill="#FFD700" />
+  </g>
+
+  <g transform="translate(415, 75) scale(0.55)">
+    <path d="M 0,0 C -15,-25 15,-25 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 22,-15 30,10 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 15,22 -10,25 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C -25,15 -28,-10 0,0" fill="url(#petalLight)" />
+    <circle cx="0" cy="0" r="3.5" fill="#FFD700" />
+  </g>
+
+  <!-- Large Central Rose/Peony Clusters flanking center gap -->
+  <!-- Center Left Peony -->
+  <g transform="translate(195, 60) scale(0.9)">
+    <circle cx="0" cy="0" r="24" fill="url(#petalLight)" opacity="0.6" />
+    <!-- Outer ruffled petals -->
+    <path d="M -18,-15 C -25,-5 -22,12 -12,20 C 0,26 15,22 22,12 C 26,-2 18,-18 5,-22 C -6,-25 -14,-20 -18,-15 Z" fill="url(#petalLight)" />
+    <!-- Middle petals -->
+    <circle cx="0" cy="0" r="14" fill="url(#peonyCenter)" />
+    <path d="M -8,-6 C -12,0 -8,8 0,10 C 8,8 12,0 8,-6 C 4,-10 -4,-10 -8,-6 Z" fill="#FFF0F5" opacity="0.3" />
+    <circle cx="0" cy="0" r="4" fill="#FFEAA7" />
+  </g>
+
+  <!-- Center Right Peony -->
+  <g transform="translate(305, 60) scale(0.9)">
+    <circle cx="0" cy="0" r="24" fill="url(#petalLight)" opacity="0.6" />
+    <path d="M -18,-15 C -25,-5 -22,12 -12,20 C 0,26 15,22 22,12 C 26,-2 18,-18 5,-22 C -6,-25 -14,-20 -18,-15 Z" fill="url(#petalLight)" />
+    <circle cx="0" cy="0" r="14" fill="url(#peonyCenter)" />
+    <path d="M -8,-6 C -12,0 -8,8 0,10 C 8,8 12,0 8,-6 C 4,-10 -4,-10 -8,-6 Z" fill="#FFF0F5" opacity="0.3" />
+    <circle cx="0" cy="0" r="4" fill="#FFEAA7" />
+  </g>
+
+  <!-- Little buds and blossoms around the base -->
+  <g transform="translate(250, 75) scale(0.65)">
+    <path d="M 0,0 C -12,-20 12,-20 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 18,-12 24,8 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C 12,18 -8,22 0,0" fill="url(#petalLight)" />
+    <path d="M 0,0 C -18,12 -22,-8 0,0" fill="url(#petalLight)" />
+    <circle cx="0" cy="0" r="3" fill="#FFD700" />
+  </g>
+</svg>
